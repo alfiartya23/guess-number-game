@@ -46,7 +46,7 @@ document.querySelector(".btn-check").addEventListener("click", () => {
       displayMessage(inputNumber > randomNumber ? "😜🔼 Too High!" : "😜🔻 Too Low!");
       score--;
       document.querySelector(".score").textContent = score;
-      // document.querySelector(".guess").textContent = "🤔";
+      document.querySelector(".guess").textContent = "🤨";
     } else {
       displayMessage("💥 You lost the game!");
       document.querySelector(".score").textContent = 0;
