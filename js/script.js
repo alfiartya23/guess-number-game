@@ -12,6 +12,11 @@ const displayMessage = (message) => {
   document.querySelector(".message").style.fontWeight = "bold";
 };
 
+// Display score function
+const displayScore = (score) => {
+  document.querySelector(".score").textContent = score;
+};
+
 // Implement the logic
 document.querySelector(".btn-check").addEventListener("click", () => {
   // Take the number from input
